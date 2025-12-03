@@ -1,0 +1,159 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8884
+    DatasheetFontHeight =11
+    ItemSuffix =5
+    Right =16200
+    Bottom =10764
+    RecSrcDt = Begin
+        0x025de7b7bf07e640
+    End
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Line
+            BorderLineStyle =0
+            BorderThemeColorIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ModernChart
+            OldBorderStyle =0
+            BorderLineStyle =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackThemeColorIndex =1
+            ChartTitle ="Chart Title"
+            ThemeFontIndex =1
+            ChartSubtitle ="Subtitle"
+        End
+        Begin Section
+            Height =7560
+            BackColor =8421504
+            Name ="Detail"
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    Left =2040
+                    Top =240
+                    Width =6240
+                    Height =480
+                    BorderColor =8355711
+                    Name ="Label0"
+                    Caption ="WELCOME TO SUPPLIER'S FORM"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2040
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =8280
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+                Begin ListBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2040
+                    Top =840
+                    Width =6300
+                    Height =5460
+                    ForeColor =4210752
+                    BorderColor =10921638
+                    Name ="List2"
+                    RowSourceType ="Table/Query"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =2040
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =6300
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =240
+                            Top =840
+                            Width =1680
+                            Height =300
+                            BorderColor =8355711
+                            Name ="Label3"
+                            Caption ="Liste of supplierS"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =240
+                            LayoutCachedTop =840
+                            LayoutCachedWidth =1920
+                            LayoutCachedHeight =1140
+                            ForeThemeColorIndex =1
+                            ForeTint =100.0
+                        End
+                    End
+                End
+                Begin Line
+                    OldBorderStyle =4
+                    OverlapFlags =87
+                    BorderLineStyle =3
+                    Left =2100
+                    Top =600
+                    Width =6240
+                    Name ="Line4"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2100
+                    LayoutCachedTop =600
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =600
+                    BorderThemeColorIndex =1
+                End
+            End
+        End
+    End
+End

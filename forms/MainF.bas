@@ -1,0 +1,909 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =17400
+    DatasheetFontHeight =11
+    ItemSuffix =28
+    Right =18156
+    Bottom =10764
+    RecSrcDt = Begin
+        0x70b6b9f1f007e640
+    End
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =18720
+            BackColor =8421504
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =120
+                    Top =840
+                    Width =3300
+                    Height =420
+                    Name ="M1"
+                    Caption ="Item"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =1260
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =120
+                    Top =1380
+                    Width =3300
+                    Height =420
+                    TabIndex =1
+                    Name ="M2"
+                    Caption ="Sales"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =1380
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =1800
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =120
+                    Top =1920
+                    Width =3300
+                    Height =420
+                    TabIndex =2
+                    Name ="M3"
+                    Caption ="suppliers"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =1920
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =2340
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    Left =120
+                    Top =2460
+                    Width =3300
+                    Height =420
+                    TabIndex =3
+                    Name ="M4"
+                    Caption ="rrrr"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =2460
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =2880
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =2880
+                    Width =3300
+                    Height =420
+                    TabIndex =4
+                    Name ="M5"
+                    Caption ="fffff"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =2880
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =3300
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =3300
+                    Width =3300
+                    Height =420
+                    TabIndex =5
+                    Name ="M6"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =3300
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =3720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =3720
+                    Width =3300
+                    Height =420
+                    TabIndex =6
+                    Name ="M7"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =3720
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =4140
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =4140
+                    Width =3300
+                    Height =420
+                    TabIndex =7
+                    Name ="M8"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =4140
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =4560
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =4560
+                    Width =3300
+                    Height =420
+                    TabIndex =8
+                    Name ="M9"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =4560
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =4980
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =95
+                    Left =120
+                    Top =4980
+                    Width =3300
+                    Height =420
+                    TabIndex =9
+                    Name ="M10"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =4980
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =5400
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =87
+                    Left =120
+                    Top =5400
+                    Width =3300
+                    Height =420
+                    TabIndex =10
+                    Name ="M11"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =5400
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =5820
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =120
+                    Top =5880
+                    Width =3300
+                    Height =420
+                    TabIndex =11
+                    Name ="M12"
+                    Caption ="Command0"
+                    OnClick ="=ShowSubMenuElement()"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =5880
+                    LayoutCachedWidth =3420
+                    LayoutCachedHeight =6300
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =0
+                    BackTint =65.0
+                    BorderThemeColorIndex =1
+                    BorderTint =100.0
+                    HoverThemeColorIndex =0
+                    HoverTint =65.0
+                    PressedThemeColorIndex =0
+                    PressedTint =65.0
+                    PressedShade =100.0
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                End
+                Begin Subform
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    Left =3660
+                    Top =840
+                    Width =7080
+                    Height =8880
+                    TabIndex =12
+                    BorderColor =10921638
+                    Name ="Fram1"
+                    GridlineColor =10921638
+                    HorizontalAnchor =2
+                    VerticalAnchor =2
+
+                    LayoutCachedLeft =3660
+                    LayoutCachedTop =840
+                    LayoutCachedWidth =10740
+                    LayoutCachedHeight =9720
+                End
+                Begin Subform
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    OldBorderStyle =0
+                    Left =10860
+                    Top =1500
+                    Width =6480
+                    Height =8220
+                    TabIndex =13
+                    BorderColor =10921638
+                    Name ="Fram2"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+                    VerticalAnchor =2
+
+                    LayoutCachedLeft =10860
+                    LayoutCachedTop =1500
+                    LayoutCachedWidth =17340
+                    LayoutCachedHeight =9720
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    Left =10860
+                    Top =240
+                    Width =1260
+                    Height =480
+                    FontSize =9
+                    TabIndex =14
+                    Name ="B1"
+                    OnClick ="=TriggerSubelementCmd()"
+                    LeftPadding =108
+                    TopPadding =72
+                    RightPadding =120
+                    BottomPadding =156
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =10860
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =12120
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =7
+                    BackTint =100.0
+                    BackShade =75.0
+                    BorderWidth =2
+                    BorderThemeColorIndex =7
+                    HoverColor =5167783
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedThemeColorIndex =7
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Shadow =-1
+                    QuickStyle =39
+                    QuickStyleMask =-753
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =223
+                    Left =12180
+                    Top =240
+                    Width =1260
+                    Height =480
+                    FontSize =9
+                    TabIndex =15
+                    Name ="B2"
+                    OnClick ="=TriggerSubelementCmd()"
+                    LeftPadding =108
+                    TopPadding =72
+                    RightPadding =120
+                    BottomPadding =156
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =12180
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =13440
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =7
+                    BackTint =100.0
+                    BackShade =75.0
+                    BorderWidth =2
+                    BorderThemeColorIndex =7
+                    HoverColor =5167783
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedThemeColorIndex =7
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Shadow =-1
+                    QuickStyle =39
+                    QuickStyleMask =-753
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =223
+                    Left =13500
+                    Top =240
+                    Width =1260
+                    Height =480
+                    FontSize =9
+                    TabIndex =16
+                    Name ="B3"
+                    OnClick ="=TriggerSubelementCmd()"
+                    LeftPadding =108
+                    TopPadding =72
+                    RightPadding =120
+                    BottomPadding =156
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =13500
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =14760
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =7
+                    BackTint =100.0
+                    BackShade =75.0
+                    BorderWidth =2
+                    BorderThemeColorIndex =7
+                    HoverColor =5167783
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedThemeColorIndex =7
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Shadow =-1
+                    QuickStyle =39
+                    QuickStyleMask =-753
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =223
+                    Left =14820
+                    Top =240
+                    Width =1260
+                    Height =480
+                    FontSize =9
+                    TabIndex =17
+                    Name ="B4"
+                    OnClick ="=TriggerSubelementCmd()"
+                    LeftPadding =108
+                    TopPadding =72
+                    RightPadding =120
+                    BottomPadding =156
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =14820
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =16080
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =7
+                    BackTint =100.0
+                    BackShade =75.0
+                    BorderWidth =2
+                    BorderThemeColorIndex =7
+                    HoverColor =5167783
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedThemeColorIndex =7
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Shadow =-1
+                    QuickStyle =39
+                    QuickStyleMask =-753
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =215
+                    Left =16140
+                    Top =240
+                    Width =1260
+                    Height =480
+                    FontSize =9
+                    TabIndex =18
+                    Name ="B5"
+                    OnClick ="=TriggerSubelementCmd()"
+                    LeftPadding =108
+                    TopPadding =72
+                    RightPadding =120
+                    BottomPadding =156
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =16140
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =17400
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Gradient =0
+                    BackThemeColorIndex =7
+                    BackTint =100.0
+                    BackShade =75.0
+                    BorderWidth =2
+                    BorderThemeColorIndex =7
+                    HoverColor =5167783
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedThemeColorIndex =7
+                    HoverForeColor =0
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    Shadow =-1
+                    QuickStyle =39
+                    QuickStyleMask =-753
+                    Overlaps =1
+                End
+                Begin Label
+                    FontItalic = NotDefault
+                    OverlapFlags =85
+                    Left =3840
+                    Top =120
+                    Width =6540
+                    Height =600
+                    FontSize =22
+                    FontWeight =700
+                    BorderColor =8355711
+                    ForeColor =15709952
+                    Name ="Lb0"
+                    Caption =" "
+                    GridlineColor =10921638
+                    LayoutCachedLeft =3840
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =10380
+                    LayoutCachedHeight =720
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =10860
+                    Top =900
+                    Width =1020
+                    Height =300
+                    TabIndex =19
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="T1"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =10860
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =11880
+                    LayoutCachedHeight =1200
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =12060
+                    Top =900
+                    Width =1020
+                    Height =300
+                    TabIndex =20
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="T2"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =12060
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =13080
+                    LayoutCachedHeight =1200
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =13260
+                    Top =900
+                    Width =1020
+                    Height =300
+                    TabIndex =21
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="T3"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =13260
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =14280
+                    LayoutCachedHeight =1200
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =14460
+                    Top =900
+                    Width =1020
+                    Height =300
+                    TabIndex =22
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="T4"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =14460
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =15480
+                    LayoutCachedHeight =1200
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =15660
+                    Top =900
+                    Width =1020
+                    Height =300
+                    TabIndex =23
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="T5"
+                    GridlineColor =10921638
+                    HorizontalAnchor =1
+
+                    LayoutCachedLeft =15660
+                    LayoutCachedTop =900
+                    LayoutCachedWidth =16680
+                    LayoutCachedHeight =1200
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =120
+                    Top =60
+                    Width =3480
+                    Height =720
+                    FontSize =18
+                    FontWeight =700
+                    BorderColor =8355711
+                    Name ="Label27"
+                    Caption ="MS ACCESS MASTER"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3600
+                    LayoutCachedHeight =780
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "MainF.cls"
