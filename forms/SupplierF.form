@@ -11,8 +11,8 @@ Begin Form
     Width =8884
     DatasheetFontHeight =11
     ItemSuffix =5
-    Right =16200
-    Bottom =10764
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x025de7b7bf07e640
     End
@@ -73,8 +73,8 @@ Begin Form
             GridlineShade =65.0
             BackThemeColorIndex =1
             ChartTitle ="Chart Title"
-            ThemeFontIndex =1
-            ChartSubtitle ="Subtitle"
+
+
         End
         Begin Section
             Height =7560

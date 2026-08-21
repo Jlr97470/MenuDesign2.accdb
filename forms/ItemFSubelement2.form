@@ -8,11 +8,11 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =4800
+    Width =5700
     DatasheetFontHeight =11
     ItemSuffix =2
-    Right =16200
-    Bottom =10764
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x025de7b7bf07e640
     End
@@ -51,8 +51,8 @@ Begin Form
             GridlineShade =65.0
             BackThemeColorIndex =1
             ChartTitle ="Chart Title"
-            ThemeFontIndex =1
-            ChartSubtitle ="Subtitle"
+
+
         End
         Begin Section
             Height =7560
@@ -64,40 +64,45 @@ Begin Form
             Begin
                 Begin Label
                     BackStyle =1
-                    OverlapFlags =85
-                    Left =180
-                    Top =120
-                    Width =4500
-                    Height =900
+                    OverlapFlags =93
+                    Left =120
+                    Top =300
+                    Width =4680
+                    Height =1620
+                    FontSize =20
+                    BackColor =15709952
                     BorderColor =8355711
                     Name ="Label0"
-                    Caption ="HERE THE SALE FORM 1\015\012SUB ELEMENT 2"
+                    Caption ="HERE THE ITEM FORM 1\015\012SUB ELEMENT2"
                     GridlineColor =10921638
-                    LayoutCachedLeft =180
-                    LayoutCachedTop =120
-                    LayoutCachedWidth =4680
-                    LayoutCachedHeight =1020
-                    BackThemeColorIndex =7
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =300
+                    LayoutCachedWidth =4800
+                    LayoutCachedHeight =1920
+                    BackThemeColorIndex =-1
                     ForeThemeColorIndex =1
                     ForeTint =100.0
+                    ForeShade =95.0
                 End
                 Begin ModernChart
-                    Top =1200
-                    Left =180
-                    Width =2760
-                    Height =6000
+                    Top =1440
+                    Left =120
+                    Width =4740
+                    Height =3480
                     Name ="Chart1"
                     GridlineColor =10921638
-                    OverlapFlags =85
+                    OverlapFlags =215
                     ChartType =9
+
                     PrimaryValuesAxisFontColor =8355711
                     SecondaryValuesAxisFontColor =8355711
-                    CategoryAxisFontColor =8355711
-                    ChartTitleFontColor =8355711
-                    ChartTitleFontSize =14
-                    ChartTitleFontName ="Calibri"
-                    LegendTextFontColor =8355711
-                    ChartSubtitleFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
             End
         End

@@ -6,8 +6,14 @@
   "Items": {
     "Databases": {
       "SummaryInfo": {
-        "Author": "prodev",
-        "Title": "Menu Design2"
+        "Author": {
+          "Type": 10,
+          "Value": "prodev"
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "Menu Design2"
+        }
       }
     }
   }

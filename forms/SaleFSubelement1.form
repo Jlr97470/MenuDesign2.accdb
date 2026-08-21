@@ -8,11 +8,11 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =8884
+    Width =4380
     DatasheetFontHeight =11
-    ItemSuffix =3
-    Right =16200
-    Bottom =10764
+    ItemSuffix =2
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x025de7b7bf07e640
     End
@@ -51,8 +51,8 @@ Begin Form
             GridlineShade =65.0
             BackThemeColorIndex =1
             ChartTitle ="Chart Title"
-            ThemeFontIndex =1
-            ChartSubtitle ="Subtitle"
+
+
         End
         Begin Section
             Height =7560
@@ -63,21 +63,22 @@ Begin Form
             AlternateBackShade =95.0
             Begin
                 Begin Label
+                    BackStyle =1
                     OverlapFlags =85
-                    Left =1980
-                    Top =720
-                    Width =6000
-                    Height =1380
-                    FontSize =26
+                    Left =360
+                    Top =240
+                    Width =3480
+                    Height =5160
+                    BackColor =14277081
                     BorderColor =8355711
-                    Name ="Label2"
-                    Caption ="WELCOME"
+                    Name ="Label0"
+                    Caption ="HERE THE SALE FORM 1\015\012SUBELEMENT 1"
                     GridlineColor =10921638
-                    LayoutCachedLeft =1980
-                    LayoutCachedTop =720
-                    LayoutCachedWidth =7980
-                    LayoutCachedHeight =2100
-                    ForeThemeColorIndex =1
+                    LayoutCachedLeft =360
+                    LayoutCachedTop =240
+                    LayoutCachedWidth =3840
+                    LayoutCachedHeight =5400
+                    BackShade =85.0
                     ForeTint =100.0
                 End
             End

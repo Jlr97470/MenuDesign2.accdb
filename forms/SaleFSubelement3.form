@@ -11,8 +11,8 @@ Begin Form
     Width =4620
     DatasheetFontHeight =11
     ItemSuffix =5
-    Right =16200
-    Bottom =10764
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x025de7b7bf07e640
     End
@@ -51,8 +51,8 @@ Begin Form
             GridlineShade =65.0
             BackThemeColorIndex =1
             ChartTitle ="Chart Title"
-            ThemeFontIndex =1
-            ChartSubtitle ="Subtitle"
+
+
         End
         Begin Section
             Height =7560
@@ -91,14 +91,16 @@ Begin Form
                     GridlineColor =10921638
                     OverlapFlags =85
                     ChartType =9
+
                     PrimaryValuesAxisFontColor =8355711
                     SecondaryValuesAxisFontColor =8355711
-                    CategoryAxisFontColor =8355711
-                    ChartTitleFontColor =8355711
-                    ChartTitleFontSize =14
-                    ChartTitleFontName ="Calibri"
-                    LegendTextFontColor =8355711
-                    ChartSubtitleFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
                 Begin ModernChart
                     Top =3000
@@ -110,14 +112,16 @@ Begin Form
                     OverlapFlags =85
                     ChartType =9
                     TabIndex =1
+
                     PrimaryValuesAxisFontColor =8355711
                     SecondaryValuesAxisFontColor =8355711
-                    CategoryAxisFontColor =8355711
-                    ChartTitleFontColor =8355711
-                    ChartTitleFontSize =14
-                    ChartTitleFontName ="Calibri"
-                    LegendTextFontColor =8355711
-                    ChartSubtitleFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
                 Begin ModernChart
                     Top =4200
@@ -129,14 +133,16 @@ Begin Form
                     OverlapFlags =85
                     ChartType =9
                     TabIndex =2
+
                     PrimaryValuesAxisFontColor =8355711
                     SecondaryValuesAxisFontColor =8355711
-                    CategoryAxisFontColor =8355711
-                    ChartTitleFontColor =8355711
-                    ChartTitleFontSize =14
-                    ChartTitleFontName ="Calibri"
-                    LegendTextFontColor =8355711
-                    ChartSubtitleFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
                 Begin ModernChart
                     Top =5400
@@ -148,14 +154,16 @@ Begin Form
                     OverlapFlags =85
                     ChartType =9
                     TabIndex =3
+
                     PrimaryValuesAxisFontColor =8355711
                     SecondaryValuesAxisFontColor =8355711
-                    CategoryAxisFontColor =8355711
-                    ChartTitleFontColor =8355711
-                    ChartTitleFontSize =14
-                    ChartTitleFontName ="Calibri"
-                    LegendTextFontColor =8355711
-                    ChartSubtitleFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
             End
         End

@@ -8,11 +8,11 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =4380
+    Width =4800
     DatasheetFontHeight =11
     ItemSuffix =2
-    Right =16200
-    Bottom =10764
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0x025de7b7bf07e640
     End
@@ -51,8 +51,8 @@ Begin Form
             GridlineShade =65.0
             BackThemeColorIndex =1
             ChartTitle ="Chart Title"
-            ThemeFontIndex =1
-            ChartSubtitle ="Subtitle"
+
+
         End
         Begin Section
             Height =7560
@@ -65,21 +65,41 @@ Begin Form
                 Begin Label
                     BackStyle =1
                     OverlapFlags =85
-                    Left =360
-                    Top =240
-                    Width =3480
-                    Height =5160
-                    BackColor =14277081
+                    Left =180
+                    Top =120
+                    Width =4500
+                    Height =900
                     BorderColor =8355711
                     Name ="Label0"
-                    Caption ="HERE THE SALE FORM 1\015\012SUBELEMENT 1"
+                    Caption ="HERE THE SALE FORM 1\015\012SUB ELEMENT 2"
                     GridlineColor =10921638
-                    LayoutCachedLeft =360
-                    LayoutCachedTop =240
-                    LayoutCachedWidth =3840
-                    LayoutCachedHeight =5400
-                    BackShade =85.0
+                    LayoutCachedLeft =180
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =4680
+                    LayoutCachedHeight =1020
+                    BackThemeColorIndex =7
+                    ForeThemeColorIndex =1
                     ForeTint =100.0
+                End
+                Begin ModernChart
+                    Top =1200
+                    Left =180
+                    Width =2760
+                    Height =6000
+                    Name ="Chart1"
+                    GridlineColor =10921638
+                    OverlapFlags =85
+                    ChartType =9
+
+                    PrimaryValuesAxisFontColor =8355711
+                    SecondaryValuesAxisFontColor =8355711
+                    UnknownProp = {369 ,791 ,4 ,4 ,4 } Begin
+                        0x7f7f7f00
+                    End
+
+
+
+
                 End
             End
         End
